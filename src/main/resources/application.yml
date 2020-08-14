@@ -1,0 +1,14 @@
+server:
+  port: 8083
+logging:
+  config: classpath:logback.xml
+sprite:
+  image:
+    url: E:\\img
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://192.168.111.102:5432/app_person_base_multiple
+    username: postgres
+    password: pgsql
